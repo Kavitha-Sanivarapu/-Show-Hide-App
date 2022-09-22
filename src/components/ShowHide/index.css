@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  font-family: 'Roboto';
+}
+.heading {
+  color: #ffffff;
+  font-size: 50px;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.button {
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #dd1264;
+  font-weight: bold;
+  border-width: 0px;
+  padding: 10px;
+}
+
+.paragraph-container {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.paragraph {
+  background-color: #fddddb;
+  padding: 40px;
+  border-radius: 10px;
+  width: 35%;
+  font-weight: bold;
+}
